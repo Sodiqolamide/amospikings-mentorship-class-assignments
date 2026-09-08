@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="width: 50%;">
+    <h4>Section 1: URL Breakdowns</h4>
+    <ol>
+        <li> https://shop.example.com/products/shoes/25?currency=NGN&size=42</li>
+        <ul>
+            <li>Protocol: https</li>
+            <li>Subdomain: shop</li>
+            <li>Domain: example.com</li>
+            <li>Path: /products/shoes/25</li>
+            <li>Query String: ?currency=NGN&size=42</li>
+            <li>Query Parameters:
+            <li>currency = NGN</li>
+            <li>size = 42</li>
+            </li>
+        </ul>
+        <br>
+        <li> https://www.youtube.com/watch?v=abc123</li>
+        <ul>
+            <li>Protocol: https</li>
+            <li>Subdomain: www</li>
+            <li>Domain: youtube.com</li>
+            <li>Path: /watchQuery</li>
+            <li>String:
+                ?v=abc123</li>
+            <li>Query Parameters:
+            <li>v = abc123</li>
+        </ul>
+        <br>
+        <li>http://localhost:3000/api/users/15</li>
+        <ul>
+            <li>Protocol: http</li>
+            <li>Subdomain: none</li>
+            <li>Domain: localhost</li>
+            <li>Path: /api/users/15</li>
+            <li>String:
+                none</li>
+            <li>Query Parameters:none
+
+        </ul>
+    </ol>
+    <br>
+    <h4>Section 2: Answer in your own words:</h4>
+    <li>What are DNS, an IP address, a domain name, localhost, and a port?</li>
+    <ul>
+        <li>DNS (Domain Name System): The internet's directory that translates human-friendly web names into numeric
+            codes. that is the simple and straightforward words we type into browswer is being converted to
+            number(bits)which is what is understood by computers.</li>
+        <li>IP Address: A unique numerical address (like 192.168.1.1) assigned to every single device on a network where
+            they can be located.</li>
+        <li>Domain Name: A textual, human-friendly alias (like google.com) that points directly to a server's IP
+            address.</li>
+        <li>localhost: A standard network loopback location that refers directly back to the computer you are currently
+            working on.</li>
+        <li>Port: A virtual slot or channel number on a computer used to route data traffic to a specific software
+            program or application.</li>
+
+    </ul>
+    <br>
+    <h4>Section 3: Practical Terminal Step</h4>
+
+    <h4>Command Used:</h4>
+    <p>macOS: Open Terminal and type ifconfig getifaddr en0 .</p>
+
+    <h4>What does localhost:3000 mean?</h4>
+
+    <p>It tells the browser to look inside my local machine (localhost) and communicate with whatever application
+        running on port channel 3000 (commonly a Node.js or React developer server).</p>
+
+    <h4>Why are domains easier for humans than IP addresses?</h4>
+
+    <p> it is easier for Humans because we remember descriptive words and patterns much better than abstract, long
+        strings of random numbers. Remembering
+        youtube.com is effortless, whereas memorizing its shifting, numerical IP addresses is highly impractical.</p>
+
+</body>
+
+</html>
