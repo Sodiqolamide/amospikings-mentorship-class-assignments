@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        table {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <h4>Choose Instagram, Facebook, Jumia, Netflix, a banking application, or a school management portal.</h4>
+
+    <table style="border: 1px solid black; border-collapse: collapse; " cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th>S/N</th>
+                <th>Feature</th>
+                <th>Frontend, Backend, or Database</th>
+                <th>Reason for Classification</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Movie Thumbnail Grid</td>
+                <td>Frontend</td>
+                <td>It Displays layout,images, cards, and titles on the user's screen.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Subtitle Asset Storage</td>
+                <td>Database</td>
+                <td>It stores indexed translations of text strings that is mapped specificall to a particular video
+                    sections</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Continue Watching state</td>
+                <td>Database</td>
+                <td>It saves the exact consistent timestamp markers that is linked to a user's ID </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Payment Transaction logs</td>
+                <td>Database</td>
+                <td>Maintins fixed historical data rows that tracks all charges per user for proper Auditing</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Video Playback UI</td>
+                <td>Frontend</td>
+                <td>It displays the built player overlay,tracking bar,Volume Slider and Pause button</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>User login screen</td>
+                <td>Frontend</td>
+                <td>Displays input text fields for emails and password provided by the users</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Dark/light theme toggle</td>
+                <td>Frontend</td>
+                <td>it help manage the browser-side stylistic choices and immediately changes the display</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Video Bitrate adaptation</td>
+                <td>Frontend</td>
+                <td>It measures instant Network connection speed to dynamically adjust the video rendering quality so as
+                    to avoid unnecessary buffering </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Video List Catalog</td>
+                <td>Database</td>
+                <td>It holds the consistent records of movie titles,casts,maturity ratings and storage links</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>User's profile table</td>
+                <td>Database</td>
+                <td>It houses user's details. user ID,avatar, and creation date</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Video Enconding pipeline</td>
+                <td>Database</td>
+                <td>Converts uploaded raw feature films into compressed, multi-resolution streaming formats.</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Recommendations Algorithm</td>
+                <td>Backend</td>
+                <td>Processes massive computing logic across user watch histories to generate curated movie suggestions.
+                </td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Subscription billing engine</td>
+                <td>Backend</td>
+                <td>carries out server-to-server operations with external payment gateways (like Stripe or Visa).</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Password hashing and Authentication</td>
+                <td>Backend</td>
+                <td>It securly encrypts plain-text passwords using strong algorithms before evaluation.</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Content Geoblocking</td>
+                <td>Backend</td>
+                <td>checks client's IP address against the allowed regions before allowing acces</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+    <h4>Section 2: Explain the folowing terms:
+    </h4>
+    <ol>
+        <li>Frontend development.</li>
+        <li>Backend development.
+        </li>
+        <li>Full-stack development.
+        </li>
+        <li>What a database does.
+        </li>
+        <li>Whether JavaScript can be used on both frontend and backend.
+        </li>
+        <li>Why every operation should not happen inside the browser.
+        </li>
+    </ol>
+
+
+    <!-- <ol>
+        
+        <li>dddasdf</li>
+
+    </ol> -->
+
+    <ol>
+        <li>Backend development: This is basically the <b>server-side</b>of an application.This is the behind the scene
+            machinery that powers the user interface.It written in languages like,python,Node.js, or java. It manages
+            logic,processes,incoming requests,and also hamdles security</li>
+        <li>Frontend dvelopment: This refers to buillding the <b>Clien-side</b>(what user's see) of an application
+            It is the totality of everything the user sees,touches,clicks and interacts with on the website.Itmainly
+            built using the HTML,CSS, and javascript. Frontend developer primary focus is the visual aspect and
+            responsiveness of an application.
+        <li>
+        <li>Fullstack development: This is the mastering of both frontend and backend skills. fullstack dveloper has the
+            reqquired skills to build a full end-to-end application,both the visual ans logic aspect.</li>
+        <li>What a database does: A database works as a safe, organised digital filing cabinet created to
+            consistently save, retrieve, search, and
+            update application information. Unlike temporary browser memory, databases makes sure that data is
+            permanently
+            kept so thousands of Simultaneous users can read or write complex data safely.</li>
+        <li>Whether JavaScript can be used on both frontend and backend: JavaScript can be used on both sides. While it
+            natively runs in the web browser to manipulate frontend interfaces, the
+            creation of the Node.js runtime environment allowed JavaScript to execute directly on backend server
+            computers. it allows engineering teams to build full-stack architectures using a single language.</li>
+        <ul>Why every operation should not happen inside the browser:
+            <li>Security Vulnerabilities: Frontend code is completely public which means anybody on the web can see at
+                anytime without any restriction. If credentials, database passwords, or private business keys are
+                calculated in the browser, users can easily extract them.
+            </li>
+            <li>Performance Bottlenecks: Older computers or low-end mobile devices will lag or completely freeze if
+                forced to execute heavy algorithms or raw data heavy processing locally</li>
+            <li>Data Integrity Risks: Browsers cannot communicate between distinct client devices natively. Without a
+                centralized server checking resources, operations like booking a seat or transferring money would suffer
+                from overlapping conflicts and fraud</li>
+        </ul>
+    </ol>
+
+
+</body>
+
+</html>
